@@ -1,6 +1,3 @@
-
-> Open deze pagina op [https://teacherpinky.github.io/wait-until-blocks/](https://teacherpinky.github.io/wait-until-blocks/)
-
 ## Usage
 
 ### wait until button is pressed
