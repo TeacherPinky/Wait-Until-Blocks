@@ -1,7 +1,7 @@
 /**
 * Wait Until Custom Blocks
 */
-//% weight=100 color=#bc8cbe block="WaitUntilBlocks" icon="\f04c"
+//% weight=100 color=#bc8cbe block="WaitUntilBlocks" icon="\uf1a7"
 namespace WaitUntilBlocks {
     /**
        * Wait until a pin is pressed
