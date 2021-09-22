@@ -46,7 +46,25 @@ Waits until the sound level is below a chosen value before the next line of code
 ```blocks
 WaitUntilBlocks.waitUntilSoundLevelBelow(80)
 ```
+## Example
 
+The costum block that waits for a pin to be released is useful when making games in which you close a circuit, for example by throwing a conductive ball in a basket, and the circuit is closed for more than 1 second.
+
+It's also useful if a ball bounces a bit, closing the circuit a few times. In both cases the regular "On pin pressed" block doesn't work.
+
+```blocks
+let score = 0
+basic.showNumber(score)
+basic.forever(function () {
+    if (input.pinIsPressed(TouchPin.P0)) {
+        score += 1
+        basic.showNumber(score)
+        WaitUntilBlocks.waitUntilPinReleased(TouchPin.P0)
+    }
+})
+```
+
+More examples can be found on this blog: https://tinker-club.blogspot.com/p/makecode-extension.html
 
 ## Gebruiken als extensie
 
