@@ -41,6 +41,8 @@ WaitUntilBlocks.waitUntilPinReleased(TouchPin.P0)
 
 ### wait until sound level is below
 
+This block can only be used with a micro:bit V2.
+
 Waits until the sound level is below a chosen value before the next line of code is executed.
 
 ```blocks
