@@ -1,11 +1,48 @@
 
 > Open deze pagina op [https://teacherpinky.github.io/wait-until-blocks/](https://teacherpinky.github.io/wait-until-blocks/)
 
-##Usage
+## Usage
 
-###wait until button is pressed
+### wait until button is pressed
 
-Waits until button A or B is pressed before the next line of code is executed.
+Waits until button A is pressed before the next line of code is executed. You can also choose button B or A + B.
+
+```blocks
+WaitUntilBlocks.waitUntilButtonPressed(Button.A)
+```
+
+### wait until button is released
+
+Waits until button A or B is released before the next line of code is executed. You can also choose button B or A + B.
+
+```blocks
+WaitUntilBlocks.waitUntilButtonReleased(Button.A)
+```
+
+### wait until pin is pressed
+
+Waits until the chosen pin is pressed before the next line of code is executed.
+
+```blocks
+WaitUntilBlocks.waitUntilPinPressed(TouchPin.P0)
+```
+
+### wait until pin is released
+
+Waits until the chosen pin is released before the next line of code is executed.
+
+```blocks
+WaitUntilBlocks.waitUntilPinReleased(TouchPin.P0)
+```
+
+### wait until sound level is below
+
+Waits until the sound level is below a chosen value before the next line of code is executed.
+
+```blocks
+WaitUntilBlocks.waitUntilSoundLevelBelow(80)
+```
+
 
 ## Gebruiken als extensie
 
