@@ -1,6 +1,12 @@
 
 > Open deze pagina op [https://teacherpinky.github.io/wait-until-blocks/](https://teacherpinky.github.io/wait-until-blocks/)
 
+##Usage
+
+###wait until button is pressed
+
+Waits until button A or B is pressed before the next line of code is executed.
+
 ## Gebruiken als extensie
 
 Deze repository kan worden toegevoegd als **extensie** in MakeCode.
@@ -17,13 +23,6 @@ Om deze repository te bewerken in MakeCode.
 * open [https://makecode.microbit.org/](https://makecode.microbit.org/)
 * klik op **Importeren** en klik vervolgens op **Importeer URL**
 * plak **https://github.com/teacherpinky/wait-until-blocks** en klik op importeren
-
-## Voorbeeld van blokken
-
-Deze afbeelding toont de blokcode van de laatste bevestiging in de master.
-Deze afbeelding kan enkele minuten duren om te vernieuwen.
-
-![Een gerenderde weergave van de blokken](https://github.com/teacherpinky/wait-until-blocks/raw/master/.github/makecode/blocks.png)
 
 #### Metadata (gebruikt voor zoeken, rendering)
 
