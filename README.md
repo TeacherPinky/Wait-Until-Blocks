@@ -21,7 +21,9 @@ WaitUntilBlocks.waitUntilButtonReleased(Button.A)
 
 ### wait until pin is pressed
 
+
 Waits until the chosen pin is pressed before the next line of code is executed. You can choose pin 0, 1 and 2.
+
 
 ```blocks
 WaitUntilBlocks.waitUntilPinPressed(TouchPin.P0)
@@ -29,7 +31,9 @@ WaitUntilBlocks.waitUntilPinPressed(TouchPin.P0)
 
 ### wait until pin is released
 
+
 Waits until the chosen pin is released before the next line of code is executed. You can choose pin 0, 1 and 2.
+
 
 ```blocks
 WaitUntilBlocks.waitUntilPinReleased(TouchPin.P0)
