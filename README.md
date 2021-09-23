@@ -81,7 +81,7 @@ basic.showIcon(IconNames.Happy)
 
 You have to press button A and touch P0 before the micro:bit will detect a sound below level 80 and to be able to get the happy face at the end. The advantage of the "wait until" blocks is that you don't need a variable to make this happen. That makes it more beginner friendly.
 
-This idea can also be used when making an alarm.
+This idea can also be used when making an alarm, for example with ABBA as secret code, meaning you have to press button A, press button B twice and press A again to put on or off an alarm.
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
@@ -90,11 +90,7 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     pushed_how_many_times += 1
 })
-/**
- * Secret code is:
- * 
- * ABBA
- */
+
 let pushed_how_many_times = 0
 basic.showIcon(IconNames.No)
 WaitUntilBlocks.waitUntilButtonPressed(Button.A)
