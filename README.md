@@ -45,7 +45,7 @@ Waits until the sound level is below a chosen value before the next line of code
 ```blocks
 WaitUntilBlocks.waitUntilSoundLevelBelow(80)
 ```
-## Example
+## Examples
 
 The costum block that waits for a pin to be released is useful when making games in which you close a circuit, for example by throwing a conductive ball in a basket, and the circuit is closed for more than 1 second.
 
@@ -61,6 +61,55 @@ basic.forever(function () {
         WaitUntilBlocks.waitUntilPinReleased(TouchPin.P0)
     }
 })
+```
+
+
+To get a quick idea of what the other blocks do, you can test this code:
+
+```blocks
+WaitUntilBlocks.waitUntilButtonPressed(Button.A)
+basic.showIcon(IconNames.Yes)
+WaitUntilBlocks.waitUntilButtonReleased(Button.A)
+basic.showIcon(IconNames.Heart)
+WaitUntilBlocks.waitUntilPinPressed(TouchPin.P0)
+basic.showIcon(IconNames.Butterfly)
+WaitUntilBlocks.waitUntilPinReleased(TouchPin.P0)
+basic.showIcon(IconNames.Duck)
+WaitUntilBlocks.waitUntilSoundLevelBelow(80)
+basic.showIcon(IconNames.Happy)
+```
+
+You have to press button A and touch P0 before the micro:bit will detect a sound below level 80 and to be able to get the happy face at the end. The advantage of the "wait until" blocks is that you don't need a variable to make this happen. That makes it more beginner friendly.
+
+This idea can also be used when making an alarm.
+
+```blocks
+input.onButtonPressed(Button.A, function () {
+    pushed_how_many_times += 1
+})
+input.onButtonPressed(Button.B, function () {
+    pushed_how_many_times += 1
+})
+/**
+ * Secret code is:
+ * 
+ * ABBA
+ */
+let pushed_how_many_times = 0
+basic.showIcon(IconNames.No)
+WaitUntilBlocks.waitUntilButtonPressed(Button.A)
+WaitUntilBlocks.waitUntilButtonReleased(Button.A)
+WaitUntilBlocks.waitUntilButtonPressed(Button.B)
+WaitUntilBlocks.waitUntilButtonReleased(Button.B)
+WaitUntilBlocks.waitUntilButtonPressed(Button.B)
+WaitUntilBlocks.waitUntilButtonReleased(Button.B)
+WaitUntilBlocks.waitUntilButtonPressed(Button.A)
+WaitUntilBlocks.waitUntilButtonReleased(Button.A)
+if (pushed_how_many_times == 4) {
+    basic.showIcon(IconNames.Yes)
+} else {
+    basic.showIcon(IconNames.Sad)
+}
 ```
 
 More examples can be found on this blog: https://tinker-club.blogspot.com/p/makecode-extension.html
