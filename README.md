@@ -90,7 +90,6 @@ input.onButtonPressed(Button.A, function () {
 input.onButtonPressed(Button.B, function () {
     pushed_how_many_times += 1
 })
-
 let pushed_how_many_times = 0
 basic.showIcon(IconNames.No)
 WaitUntilBlocks.waitUntilButtonPressed(Button.A)
