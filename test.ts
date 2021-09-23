@@ -1,8 +1,10 @@
-WaitUntilBlocks.waitUntilButtonReleased(Button.A)
 WaitUntilBlocks.waitUntilButtonPressed(Button.A)
-WaitUntilBlocks.waitUntilSoundLevelBelow(80)
-WaitUntilBlocks.waitUntilPinReleased(TouchPin.P0)
+basic.showIcon(IconNames.Heart)
+WaitUntilBlocks.waitUntilButtonReleased(Button.A)
+basic.showIcon(IconNames.Happy)
 WaitUntilBlocks.waitUntilPinPressed(TouchPin.P0)
-basic.forever(function () {
-
-})
+basic.showIcon(IconNames.Yes)
+WaitUntilBlocks.waitUntilPinReleased(TouchPin.P0)
+basic.showIcon(IconNames.Butterfly)
+WaitUntilBlocks.waitUntilSoundLevelBelow(80)
+basic.showIcon(IconNames.Duck)
