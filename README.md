@@ -45,6 +45,17 @@ Waits until the sound level is below a chosen value before the next line of code
 ```blocks
 WaitUntilBlocks.waitUntilSoundLevelBelow(80)
 ```
+
+### wait until sound level is above
+
+This block can only be used with a micro:bit V2.
+
+Waits until the sound level is above a chosen value before the next line of code is executed.
+
+```blocks
+WaitUntilBlocks.waitUntilSoundLevelAbove(80)
+```
+
 ## Examples
 
 The costum block that waits for a pin to be released is useful when making games in which you close a circuit, for example by throwing a conductive ball in a basket, and the circuit is closed for more than 1 second.
