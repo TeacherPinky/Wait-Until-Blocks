@@ -54,7 +54,7 @@ namespace WaitUntilBlocks {
            * @param level sound level to wait for eg: 80
            */
     //% blockId=Wachtblokken_wait_until_sound_level_above
-    //% block="wacht tot geluidsniveau hoger is dan %level"
+    //% block="wait until sound level is above %level"
     //% block.loc.nl="wacht tot geluidsniveau hoger is dan %level"
     //% jsdoc.loc.nl="Wacht tot het geluidsniveau boven de gekozen waarde komt"
     //% level.loc.nl="Geluidsniveau waar je op wacht, bijvoorbeeld 80"
