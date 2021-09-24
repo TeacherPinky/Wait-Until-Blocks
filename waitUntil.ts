@@ -50,6 +50,22 @@ namespace WaitUntilBlocks {
     }
 
     /**
+           * Wait until sound level rises above a value
+           * @param level sound level to wait for eg: 80
+           */
+    //% blockId=Wachtblokken_wait_until_sound_level_above
+    //% block="wacht tot geluidsniveau hoger is dan %level"
+    //% block.loc.nl="wacht tot geluidsniveau hoger is dan %level"
+    //% jsdoc.loc.nl="Wacht tot het geluidsniveau boven de gekozen waarde komt"
+    //% level.loc.nl="Geluidsniveau waar je op wacht, bijvoorbeeld 80"
+    //% level.min=0 level.max=255 level.defl=80
+    export function waitUntilSoundLevelAbove(level: number): void {
+        while (input.soundLevel() <= level) {
+            basic.pause(20);
+        }
+    }
+
+    /**
        * Wait until button is pressed
        * @param button the button to wait for eg: button A
        */
