@@ -9,6 +9,8 @@ namespace WaitUntilBlocks {
        */
     //% blockId=WaitUntilBlocks_wait_until_pin_pressed
     //% block="wait until pin %pin is pressed"
+    //% block.loc.de="warte bis Pin %pin gedrückt"
+    //% block.loc.fr="attendre jusqu'à ce que la broche %pin est presée"
     //% block.loc.nl="wacht tot pin %pin is ingedrukt"
     //% jsdoc.loc.nl="Wacht tot een pin is ingedrukt"
     //% pin.loc.nl="Pin waar je op wacht, bijvoorbeeld P0, P1, P2"
@@ -24,6 +26,8 @@ namespace WaitUntilBlocks {
        */
     //% blockId=WaitUntilBlocks_wait_until_not_pin_pressed
     //% block="wait until pin %pin is released"
+    //% block.loc.de="warte bis Pin %pin losgelassen"
+    //% block.loc.fr="attendre jusqu'à ce que la broche %pin est relachée"
     //% block.loc.nl="wacht tot pin %pin is losgelaten"
     //% jsdoc.loc.nl="Wacht tot een pin is losgelaten, oftewel niet meer wordt ingedrukt."
     //% pin.loc.nl="Pin waar je op wacht, bijvoorbeeld P0, P1, P2"
@@ -39,6 +43,8 @@ namespace WaitUntilBlocks {
        */
     //% blockId=WaitUntilBlocks_wait_until_sound_level_below
     //% block="wait until sound level is below %level"
+    //% block.loc.de="warte bis Lautstärke ist unter %level"
+    //% block.loc.fr="attendre jusqu'à ce que le niveau sonore est de moins de %level"
     //% block.loc.nl="wacht tot geluidsniveau lager is dan %level"
     //% jsdoc.loc.nl="Wacht tot het geluidsniveau onder de gekozen waarde komt"
     //% level.loc.nl="Geluidsniveau waar je op wacht, bijvoorbeeld 80"
@@ -55,6 +61,8 @@ namespace WaitUntilBlocks {
            */
     //% blockId=Wachtblokken_wait_until_sound_level_above
     //% block="wait until sound level is above %level"
+    //% block.loc.de="warte bis Lautstärke ist oben %level"
+    //% block.loc.fr="attendre jusqu'à ce que le niveau sonore au-dessus %level"
     //% block.loc.nl="wacht tot geluidsniveau hoger is dan %level"
     //% jsdoc.loc.nl="Wacht tot het geluidsniveau boven de gekozen waarde komt"
     //% level.loc.nl="Geluidsniveau waar je op wacht, bijvoorbeeld 80"
@@ -71,6 +79,8 @@ namespace WaitUntilBlocks {
        */
     //% blockId=WaitUntilBlocks_wait_until_button_is_pressed
     //% block="wait until button %button is pressed"
+    //% block.loc.de="warte bis Knopf %button gedrückt"
+    //% block.loc.fr="attendre jusqu'à ce que le bouton %button est pressé"
     //% block.loc.nl="wacht tot knop %button is ingedrukt"
     //% jsdoc.loc.nl="Wacht tot een knop is ingedrukt."
     //% button.loc.nl="De knop waar je op wacht, bijvoorbeeld knop A."
@@ -86,6 +96,8 @@ namespace WaitUntilBlocks {
        */
     //% blockId=WaitUntilBlocks_wait_until_button_is_released
     //% block="wait until button %button is released"
+    //% block.loc.de="warte bis Knopf %button losgelassen"
+    //% block.loc.de="attendre jusqu'à ce que le bouton %button est relaché"
     //% block.loc.nl="wacht tot knop %button is losgelaten"
     //% jsdoc.loc.nl="Wacht tot een knop is losgelaten oftewel niet meer is ingedrukt."
     //% button.loc.nl="De knop waar je op wacht, bijvoorbeeld knop A."
