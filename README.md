@@ -10,7 +10,7 @@ WaitUntilBlocks.waitUntilButtonPressed(Button.A)
 
 ### wait until button is released
 
-Waits until button A or B is released before the next line of code is executed. You can also choose button B or A + B.
+Waits until button A is released before the next line of code is executed. You can also choose button B or A + B.
 
 ```blocks
 WaitUntilBlocks.waitUntilButtonReleased(Button.A)
