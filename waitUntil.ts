@@ -97,7 +97,7 @@ namespace WaitUntilBlocks {
     //% blockId=WaitUntilBlocks_wait_until_button_is_released
     //% block="wait until button %button is released"
     //% block.loc.de="warte bis Knopf %button losgelassen"
-    //% block.loc.de="attendre jusqu'à ce que le bouton %button est relaché"
+    //% block.loc.fr="attendre jusqu'à ce que le bouton %button est relaché"
     //% block.loc.nl="wacht tot knop %button is losgelaten"
     //% jsdoc.loc.nl="Wacht tot een knop is losgelaten oftewel niet meer is ingedrukt."
     //% button.loc.nl="De knop waar je op wacht, bijvoorbeeld knop A."
