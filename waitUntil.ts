@@ -13,6 +13,7 @@ namespace WaitUntilBlocks {
     //% block.loc.sv-SE="vänta tills pin %pin trycks"
     //% block.loc.fr="attendre jusqu'à ce que la broche %pin soit presée"
     //% block.loc.nl="wacht tot pin %pin is ingedrukt"
+    //% weight=90
     //% jsdoc.loc.nl="Wacht tot een pin is ingedrukt"
     //% pin.loc.nl="Pin waar je op wacht, bijvoorbeeld P0, P1, P2"
     export function waitUntilPinPressed(pin: TouchPin): void {
@@ -31,6 +32,7 @@ namespace WaitUntilBlocks {
     //% block.loc.sv-SE="vänta tills pin %pin släpps"
     //% block.loc.fr="attendre jusqu'à ce que la broche %pin soit relachée"
     //% block.loc.nl="wacht tot pin %pin is losgelaten"
+    //% weight=85
     //% jsdoc.loc.nl="Wacht tot een pin is losgelaten, oftewel niet meer wordt ingedrukt."
     //% pin.loc.nl="Pin waar je op wacht, bijvoorbeeld P0, P1, P2"
     export function waitUntilPinReleased(pin: TouchPin): void {
@@ -52,6 +54,7 @@ namespace WaitUntilBlocks {
     //% jsdoc.loc.nl="Wacht tot het geluidsniveau onder de gekozen waarde komt"
     //% level.loc.nl="Geluidsniveau waar je op wacht, bijvoorbeeld 80"
     //% level.min=0 level.max=255 level.defl=80
+    //% weight=75
     export function waitUntilSoundLevelBelow(level: number): void {
         while (input.soundLevel() >= level) {
             basic.pause(20);
@@ -71,6 +74,7 @@ namespace WaitUntilBlocks {
     //% jsdoc.loc.nl="Wacht tot het geluidsniveau boven de gekozen waarde komt"
     //% level.loc.nl="Geluidsniveau waar je op wacht, bijvoorbeeld 80"
     //% level.min=0 level.max=255 level.defl=80
+    //% weight=80
     export function waitUntilSoundLevelAbove(level: number): void {
         while (input.soundLevel() <= level) {
             basic.pause(20);
@@ -87,6 +91,7 @@ namespace WaitUntilBlocks {
     //% block.loc.sv-SE="vänta tills knapp %button trycks"
     //% block.loc.fr="attendre jusqu'à ce que le bouton %button soit pressé"
     //% block.loc.nl="wacht tot knop %button is ingedrukt"
+    //% weight=100
     //% jsdoc.loc.nl="Wacht tot een knop is ingedrukt."
     //% button.loc.nl="De knop waar je op wacht, bijvoorbeeld knop A."
     export function waitUntilButtonPressed(button: Button): void {
@@ -105,6 +110,7 @@ namespace WaitUntilBlocks {
     //% block.loc.sv-SE="vänta tills knapp %button släpps"
     //% block.loc.fr="attendre jusqu'à ce que le bouton %button soit relaché"
     //% block.loc.nl="wacht tot knop %button is losgelaten"
+    //% weight=95
     //% jsdoc.loc.nl="Wacht tot een knop is losgelaten oftewel niet meer is ingedrukt."
     //% button.loc.nl="De knop waar je op wacht, bijvoorbeeld knop A."
     export function waitUntilButtonReleased(button: Button): void {
