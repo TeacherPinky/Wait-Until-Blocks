@@ -8,7 +8,6 @@
         "microphone": "*"
     },
     "files": [
-        "main.blocks",
         "README.md",
         "waitUntil.ts"
     ],
