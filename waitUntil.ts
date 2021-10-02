@@ -6,7 +6,7 @@
 namespace WaitUntilBlocks {
     /**
        * Wait until a pin is pressed
-       * @param pin pin to wait for eg: P0, P1, P2
+       * @param pin pin to wait for eg: TouchPin.P0
        */
     //% blockId=WaitUntilBlocks_wait_until_pin_pressed
     //% block="wait until pin %pin is pressed"
@@ -25,7 +25,7 @@ namespace WaitUntilBlocks {
 
     /**
        * Wait until a pin is released
-       * @param pin pin to wait for eg: P0, P1, P2
+       * @param pin pin to wait for eg: TouchPin.P0
        */
     //% blockId=WaitUntilBlocks_wait_until_not_pin_pressed
     //% block="wait until pin %pin is released"
@@ -86,7 +86,7 @@ namespace WaitUntilBlocks {
 
     /**
        * Wait until button is pressed
-       * @param button the button to wait for eg: button A
+       * @param button the button to wait for eg: button.A
        */
     //% blockId=WaitUntilBlocks_wait_until_button_is_pressed
     //% block="wait until button %button is pressed"
@@ -105,7 +105,7 @@ namespace WaitUntilBlocks {
 
     /**
        * Wait until button is released
-       * @param button the button to wait for eg button A
+       * @param button the button to wait for eg: button.A
        */
     //% blockId=WaitUntilBlocks_wait_until_button_is_released
     //% block="wait until button %button is released"
